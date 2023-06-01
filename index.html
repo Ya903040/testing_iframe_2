@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+    <title>Programmer Type Test</title>
+</head>
+<body>
+<h1>Programmer Type Test</h1>
+
+<div id="startButton">
+  <button onclick="startTest()">Start Test</button>
+</div>
+
+<div class="question" id="question1">
+  <p id="q1"></p>
+  <label>
+    <input type="radio" name="q1" value="q1_option1">
+
+  </label> <span id="q1_option1"></span>
+  <label>
+    <input type="radio" name="q1" value="q1_option2">
+
+  </label> <span id="q1_option2"></span>
+  <button onclick="nextQuestion()">Next</button>
+</div>
+
+<div class="question" id="question2">
+  <p id="q2"></p>
+  <label>
+    <input type="radio" name="q2" value="q2_option1">
+
+  </label> <span id="q2_option1"></span>
+  <label>
+    <input type="radio" name="q2" value="q2_option2">
+
+  </label> <span id="q2_option2"></span>
+  <button onclick="nextQuestion()">Next</button>
+</div>
+
+<div class="question" id="question3">
+  <p id="q3"></p>
+  <label>
+    <input type="radio" name="q3" value="q3_option1">
+
+  </label> <span id="q3_option1"></span>
+  <label>
+    <input type="radio" name="q3" value="q3_option2">
+
+  </label> <span id="q3_option2"></span>
+  <button onclick="nextQuestion()">Next</button>
+</div>
+
+<div class="question" id="question4">
+  <p id="q4"></p>
+  <label>
+    <input type="radio" name="q4" value="q4_option1">
+
+  </label> <span id="q4_option1"></span>
+  <label>
+    <input type="radio" name="q4" value="q4_option2">
+
+  </label> <span id="q4_option2"></span>
+  <button onclick="nextQuestion()">Next</button>
+</div>
+
+<div class="question" id="question5">
+  <p id="q5"></p>
+  <label>
+    <input type="radio" name="q5" value="q5_option1">
+
+  </label> <span id="q5_option1"></span>
+  <label>
+    <input type="radio" name="q5" value="q5_option2">
+
+  </label> <span id="q5_option2"></span>
+  <button onclick="calculateResult()">Calculate Result</button>
+</div>
+
+<div class="result" id="result"></div>
+
+<pre id="tree"></pre>
+
+<script src="js/main.js"></script>
+</body>
+</html>
